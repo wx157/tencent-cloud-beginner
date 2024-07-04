@@ -2,7 +2,7 @@
 title: 导语：新手上路
 description: 激活TDP社群，传播正能量，并帮助用户解答在使用腾讯云过程中的问题
 published: 1
-date: 2024-07-04T15:17:12.489Z
+date: 2024-07-04T15:51:20.152Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-04T14:15:23.322Z
