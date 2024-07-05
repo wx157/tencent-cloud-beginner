@@ -2,7 +2,7 @@
 title: 导语：新手上路
 description: 激活TDP社群，传播正能量，并帮助用户解答在使用腾讯云过程中的问题
 published: 1
-date: 2024-07-05T15:02:52.425Z
+date: 2024-07-05T15:05:09.174Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-04T14:15:23.322Z
@@ -29,7 +29,7 @@ dateCreated: 2024-07-04T14:15:23.322Z
 
 内容必须使用 Markdown 格式进行编写，方便在线预览和格式转换，并确保内容风格一致。
 
-具体要求：
+[语法参考这里](https://docs.requarks.io/editors/markdown)，补充规范：
 
 - 标题从一级标题（一个#）开始，标题级别连续；
 
