@@ -2,7 +2,7 @@
 title: 导语：新手上路
 description: 激活TDP社群，传播正能量，并帮助用户解答在使用腾讯云过程中的问题
 published: 1
-date: 2024-07-05T14:31:11.871Z
+date: 2024-07-05T14:33:07.139Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-04T14:15:23.322Z
@@ -43,7 +43,7 @@ lvan、若海
 相柳
 
 - 责编
-熊、相柳、King
+熊、相柳、King、小泽、若羽
 
 - 编辑
-相柳（大纲）、待补充...
+相柳（大纲）、小泽（DNSPod）、待补充...
