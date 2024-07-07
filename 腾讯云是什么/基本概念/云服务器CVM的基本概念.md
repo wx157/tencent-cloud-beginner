@@ -1,8 +1,8 @@
 ---
-title: 基本概念
-description: 腾讯云基本概念
+title: 云服务器CVM的基本概念
+description: 
 published: 1
-date: 2024-07-07T13:00:43.778Z
+date: 2024-07-07T13:44:18.534Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-05T15:40:30.126Z
