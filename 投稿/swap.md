@@ -2,7 +2,7 @@
 title: 云服务器开启虚拟内存 SWAP
 description: 云服务器开启虚拟内存 SWAP
 published: 1
-date: 2024-07-08T08:17:14.601Z
+date: 2024-07-08T08:18:07.450Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-08T08:17:14.601Z
@@ -15,7 +15,7 @@ dateCreated: 2024-07-08T08:17:14.601Z
 ## 开启虚拟内存
 
 可以使用如下脚本开启虚拟内存[^1]：
-[^1]
+
 ```shell
 #! /bin/bash
 
