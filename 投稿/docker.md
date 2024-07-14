@@ -2,7 +2,7 @@
 title: docker使用
 description: 大陆地区使用docker
 published: 1
-date: 2024-07-14T04:56:03.059Z
+date: 2024-07-14T04:56:40.518Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-12T06:05:03.253Z
@@ -49,7 +49,7 @@ _EOF_
 
 重启docker服务：`systemctl restart docker`
 
-**注意：**这个配置只在腾讯云有效，因为"https://mirror.ccs.tencentyun.com"这个域名只在腾讯云内部有效。
+**注意：** 这个配置只在腾讯云有效，因为"https://mirror.ccs.tencentyun.com"这个域名只在腾讯云内部有效。
 
 # 附录
 
