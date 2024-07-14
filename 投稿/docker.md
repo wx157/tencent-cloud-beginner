@@ -2,7 +2,7 @@
 title: docker使用
 description: 大陆地区使用docker
 published: 1
-date: 2024-07-14T04:56:40.518Z
+date: 2024-07-14T15:27:29.811Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-12T06:05:03.253Z
@@ -12,16 +12,7 @@ dateCreated: 2024-07-12T06:05:03.253Z
 
 > 如果对使用新版 docker 没有太大的需求，通过apt、yum等包管理工具使用操作系统自带的软件源安装 docker 即可。
 
-官网提供了一个一键安装脚本，并且支持通过指定镜像站点安装 docker，可选的站点包括Aliyun、AzureChinaCloud。
-
-所以可以通过如下命令安装 docker：
-
-```shell
-curl -fsSL https://get.docker.com -o get-docker.sh
-sudo sh get-docker.sh --mirror AzureChinaCloud
-```
-
-如果https://get.docker.com这个地址也无法访问，可以将附录中内容保存为`get-docker.sh`，通过命令`sudo sh get-docker.sh --mirror AzureChinaCloud`安装 docker。
+官网提供了一个一键安装脚本，并且支持通过指定镜像站点安装 docker，可选的站点包括Aliyun、AzureChinaCloud，将附录中内容保存为`get-docker.sh`，通过命令`sudo sh get-docker.sh --mirror AzureChinaCloud`安装 docker。
 
 # 拉取镜像
 
@@ -50,6 +41,24 @@ _EOF_
 重启docker服务：`systemctl restart docker`
 
 **注意：** 这个配置只在腾讯云有效，因为"https://mirror.ccs.tencentyun.com"这个域名只在腾讯云内部有效。
+
+# 省流：一键安装
+
+```shell
+#! /bin/bash
+
+mkdir -p /etc/docker/
+cat << _EOF_ > /etc/docker/daemon.json
+{
+    "registry-mirrors": [
+        "https://mirror.ccs.tencentyun.com"
+    ]
+}
+_EOF_
+curl -fsSL https://dl.173371.xyz/https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh --mirror AzureChinaCloud
+rm -f get-docker.sh
+```
 
 # 附录
 
