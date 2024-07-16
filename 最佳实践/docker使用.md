@@ -2,7 +2,7 @@
 title: docker使用
 description: 大陆地区使用docker
 published: 1
-date: 2024-07-15T08:08:29.708Z
+date: 2024-07-16T04:31:27.949Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-12T06:05:03.253Z
@@ -42,7 +42,7 @@ _EOF_
 
 **注意：** 这个配置只在腾讯云有效，因为"https://mirror.ccs.tencentyun.com"这个域名只在腾讯云内部有效。
 
-# 省流：一键安装
+# 省流：一键安装[1^]
 
 ```shell
 #! /bin/bash
@@ -805,4 +805,6 @@ do_install() {
 # half the file during "curl | sh"
 do_install
 ```
+
+[^1] :参考自[安装docker](https://www.yangtzecoder.com/archives/721)
 
